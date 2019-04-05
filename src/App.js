@@ -8,6 +8,7 @@ class App extends Component {
     let routes = (
       <Switch>
         <Route path='/kartik' exact component={Profile} />
+        <Route path='/' exact component={Profile} />
         <Redirect to='/kartik' />
       </Switch>
     );
